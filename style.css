@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    font-family: "Poppins", sans-serif;
+     /* font-weight: 400; */
+     font-style: normal;
+    height: 100vh;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa; 
+}
+
+.mini-container{
+    width: 80%;
+    
+}
+
+.mini-head{
+    font-size: 20px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+ .combine{
+    display: flex;
+    flex-direction: column;
+} 
+
+.box{
+    padding: 30px;
+    width: 240px;
+    height: 150px;
+    box-shadow: 0px 4px 10px rgb(180, 162, 162);
+    /* margin-top: 30px; */
+    border-radius: 5px;
+    position: relative;
+}
+
+header{
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.head2{
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 30px;
+    color: black;
+    /* letter-spacing: 1rem; */
+    
+}
+
+.head1{
+    font-size: 37px;
+    font-weight:200;
+    color: black;
+    line-height: 62px;
+    
+}
+
+.mini-content{
+    font-size: 12px;
+}
+
+.mini-para{
+    margin: 20px auto;
+    width: 50%;
+}
+
+.box1{
+    border-top: 5px solid #5ac7c8;
+    min-width: 240px;
+}
+
+.box2{
+    border-top: 5px solid #e15756;
+    
+}
+
+.box3{
+    border-top: 5px solid #f7ae52;
+    margin-top: 20px;
+}
+
+.box4{
+    border-top: 5px solid #619adc;
+    min-width: 240px;
+}
+
+p{
+    color: gray;
+}
+
+@media(max-width:1102px){
+    .container{
+        height: 100%;
+
+    }
+
+    .mini-container{
+        width: 80%;
+        margin: 80px auto;
+    }
+    .main{
+        display: grid;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .mini-para{
+        width: 100%;
+    }
+    .head1{
+        font-size: 24px;
+    }
+    .head2{
+        font-size: 24px;
+    }
+}
+
+
+

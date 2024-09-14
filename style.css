@@ -112,7 +112,7 @@ p{
     color: gray;
 }
 
-@media(max-width:1102px){
+@media(max-width:1000px){
     .container{
         height: 100%;
 
@@ -137,6 +137,10 @@ p{
     }
     .head2{
         font-size: 24px;
+    }
+
+    .box{
+        width: auto;
     }
 }
 
